@@ -1,0 +1,2 @@
+"N_students","earliest_hours","latest_hours","positive_count_rounded","zero_count_rounded","negative_count_rounded","within1h_before_rounded","within6h_before_rounded","within24h_before_rounded","earlier_than24h_rounded","median_hours_rounded","rounding_W1"
+146,113.6,-1.52,142,1,3,23,57,114,29,9.09,0.00240975209272277

@@ -1,0 +1,6 @@
+Q5: shared Bernoulli path, 150 posterior rows, 3003 density values and 90% Beta quantiles passed.
+Q5: Bayesian MSE, weighted lower bound, expected posterior variance and fixed-parameter risk passed.
+Q6A: 1000 round error counts, pooled probability and 10000 complete test decisions passed.
+Q6B: 100000 decisions, theoretical power/type-II tails and all exact binomial intervals passed.
+Q6C: posterior and truncated-normal marginal verified by quadrature on four internal cases.
+PASSED. Numerical formulas independently verified using Python/NumPy/SciPy.

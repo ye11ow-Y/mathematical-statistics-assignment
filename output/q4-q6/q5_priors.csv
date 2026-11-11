@@ -1,0 +1,4 @@
+"prior","a","b","prior_mean","prior_strength"
+"Beta(3,7)",3,7,0.3,10
+"Jeffreys",0.5,0.5,0.5,1
+"Flat",1,1,0.5,2

@@ -1,0 +1,79 @@
+{
+  "language": "English",
+  "sources_sha256": {
+    "output/q1-q3/q1_consistency_path.csv": "4d9f4c8e66df1f0be1c8a540f7d3fb59da3a7c305a5673cad744550ce3227bb6",
+    "output/q1-q3/q1_normality_samples.csv": "b1e9fb333317a0c4ab582174a4d756601a9c5e4c0d4684d0e466b6b3f9b515e4",
+    "output/q4-q6/q5_density_n20.csv": "49ac8291979088ab04283e0cec56a53433fbbc2f23a50a3756759aea10309b75",
+    "output/q4-q6/q5_posterior_path.csv": "6f809546503d5e4e73db0b209c65c786f186610d8222493a7ac122cf7520732d",
+    "output/q4-q6/q5_priors.csv": "1bc837dc1a79e2d3fdf8686ce16f24917814d1d1389ca73318b8df0ea96e8a7b",
+    "output/q4-q6/q6b_summary.csv": "3d0a748f5087ed6be6fe22025cad1f2afd1de3b32fd533be317c8b3c5437ea77",
+    "output/q4-q6/q6b_theoretical_curve.csv": "319d883d58930e40352efa13bb10ffff6f7fe4f0184968148d7cd2b307bb3a3a",
+    "output/q7/predictions.csv": "7b6d5ebfbe3604505e6c8880c311167f6c9ea8d754087d98013ae5e765dddadf",
+    "output/q7/scenarios.csv": "77585f58fe7041c0e833ace24f762545482274bd0cdf2c72670dbe9d1b74651f"
+  },
+  "figures": {
+    "fig01_consistency": {
+      "title": "Consistency of the mean and variance estimators",
+      "legend": [
+        "Estimate",
+        "True value",
+        "Pointwise 95% band"
+      ],
+      "drawing_signature": "306cb513841baa44892d1f7398e914f02ede8d187258e80caa2a4964805dd89a",
+      "sources": [
+        "q1-q3/q1_consistency_path.csv"
+      ]
+    },
+    "fig02_standardized_distribution": {
+      "title": "Sampling distribution of the standardized mean",
+      "legend": [
+        "Empirical density",
+        "$N(0,1)$"
+      ],
+      "drawing_signature": "a49e29edb96624ae9a78d3dfa3f39df78f9cb7a258f34e779fb1b258df0c7390",
+      "sources": [
+        "q1-q3/q1_normality_samples.csv"
+      ]
+    },
+    "fig03_bayesian_update": {
+      "title": "Bayesian updating under three priors",
+      "legend": [
+        "Beta$(3,7)$",
+        "Jeffreys",
+        "Uniform",
+        "True value $0.3$"
+      ],
+      "drawing_signature": "1e560d8d604ceaee8239d93c30184be31b7bb4f302640b5207590594abbad309",
+      "sources": [
+        "q4-q6/q5_density_n20.csv",
+        "q4-q6/q5_posterior_path.csv",
+        "q4-q6/q5_priors.csv"
+      ]
+    },
+    "fig04_test_power": {
+      "title": "Power and Type I error probability",
+      "legend": [
+        "Theoretical probability",
+        "Simulation and 95% interval"
+      ],
+      "drawing_signature": "620ff0ebc225610cf2fd9933c3d959eea19eba878e187c326a53e4b7d8ebd7e0",
+      "sources": [
+        "q4-q6/q6b_summary.csv",
+        "q4-q6/q6b_theoretical_curve.csv"
+      ]
+    },
+    "fig05_submission_prediction": {
+      "title": "Ordered predictions of relative submission times",
+      "legend": [
+        "Predictive median",
+        "Earlier scenario",
+        "Later scenario"
+      ],
+      "drawing_signature": "75383507ba6d5b3f436ccec90c6af93c9e6a16804066624cbb55a523f681c48b",
+      "sources": [
+        "q7/predictions.csv",
+        "q7/scenarios.csv"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+"experiment","count","total","empirical_probability","theoretical_probability","mcse_theoretical","mc_lower95","mc_upper95"
+"two_sided_type1",520,10000,0.052,0.0499957902964409,0.00217936255012963,0.0477293523796833,0.0565338683802425

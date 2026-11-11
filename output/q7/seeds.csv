@@ -1,0 +1,4 @@
+"scenario","seed","repetitions","N_students"
+"central",20261809,10000,146
+"earlier",20261810,10000,146
+"later",20261811,10000,146

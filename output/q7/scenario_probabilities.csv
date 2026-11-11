@@ -1,0 +1,4 @@
+"scenario","p_late","p_within1h_before","p_within6h_before","p_within24h_before","p_earlier_than24h","expected_late_count","expected_earlier24_count"
+"central",0.02,0.159216833280907,0.39,0.78,0.2,2.92,29.2
+"earlier",0.01,0.0636342103827685,0.243951839509359,0.69,0.3,1.46,43.8
+"later",0.04,0.276188347434206,0.517080653604865,0.84,0.12,5.84,17.52

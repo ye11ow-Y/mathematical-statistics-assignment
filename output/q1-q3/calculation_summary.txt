@@ -1,0 +1,77 @@
+Q1 initial sample and intervals
+    n           mean variance_unbiased  variance_mle        mu_lower
+1 100 0.574991710611     30.2325721588 29.9302464372 -0.516013198215
+       mu_upper sigma2_lower  sigma2_upper
+1 1.66599661944 23.306169569 40.7985356256
+
+Q1 MSE and empirical variance
+        estimator  first_estimate  mean_estimate  empirical_bias
+1     sample_mean  0.735613625671  1.01813198576 0.0181319857573
+2 sample_variance 23.472957305096 25.01676086954 0.0167608695376
+    empirical_mse empirical_variance_B empirical_variance_Bminus1
+1  0.252950394163       0.252621625256             0.252874499756
+2 13.028585560025      13.028304633277            13.041345979257
+  theoretical_mse        mse_mcse repetitions
+1    0.2500000000 0.0110424261357        1000
+2   12.6262626263 0.6204491346217        1000
+
+Q1 interval coverage (supplementary)
+  parameter coverage nominal  mcse_at_nominal
+1        mu    0.937    0.95 0.00689202437605
+2    sigma2    0.951    0.95 0.00689202437605
+
+Q1 path checkpoints
+        n           mean      variance
+1      10 1.453749537787 14.8263096019
+6     110 0.409229207421 24.6030214495
+51   1010 0.696598584249 25.1962353539
+501 10000 1.005182381162 25.1537561889
+
+Q1 standardisation
+      n            z_mean   z_variance_B         z_q025        z_q975
+1    10  0.03428544092321 1.034725754343 -1.82972921451 2.04246787779
+2   100 -0.00302613950518 1.012655448774 -1.93904530850 2.02823241636
+3  1000 -0.04076908647300 0.913692317190 -1.88900590794 1.82600084702
+4 10000 -0.03230175920712 0.992544853586 -2.06521959422 1.95884178505
+  z_fraction_within_196            t_mean   t_variance_B t_theoretical_variance
+1                 0.951  0.04497460063725 1.378163321098          1.28571428571
+2                 0.948 -0.00173082751955 1.041288935438          1.02061855670
+3                 0.959 -0.04094084949468 0.915918607586          1.00200601805
+4                 0.941 -0.03253282313900 0.991673964766          1.00020006002
+
+Q2 summary
+                   estimator first_estimate mean_estimate    empirical_bias
+1 shift_best_unbiased_linear  2.44305066438 3.00303703100  0.00303703099515
+2          scale_best_linear  2.64582644403 2.72103001776 -0.27896998223894
+3        scale_unbiased_mean  2.91040908843 2.99313301954 -0.00686698046283
+   empirical_mse empirical_variance_B empirical_variance_Bminus1
+1 0.099840678903      0.0998314553457            0.0998414394896
+2 0.836688878414      0.7588646274235            0.7589405214756
+3 0.918273354603      0.9182261991824            0.9183180309855
+  theoretical_mse         mse_mcse repetitions
+1  0.100000000000 0.00142829904036       10000
+2  0.818181818182 0.01180547058205       10000
+3  0.900000000000 0.01301973233987       10000
+
+Q2 paired scale comparison
+  empirical_mse_reduction theoretical_mse_reduction     paired_mcse
+1         0.0815844761892           0.0818181818182 0.0052415671814
+
+Q3 summary
+    estimator first_estimate mean_estimate   empirical_bias   empirical_mse
+1   X1_over_2 0.962304157502 1.00317080473 0.00317080472907 0.2509252592729
+2 Xbar_over_2 1.297040933167 1.00086327596 0.00086327595574 0.0248979632269
+  empirical_variance_B empirical_variance_Bminus1 theoretical_mse
+1      0.2509152052703            0.2509402993002           0.250
+2      0.0248972179815            0.0248997079523           0.025
+           mse_mcse repetitions
+1 0.003529129482771       10000
+2 0.000344728312031       10000
+
+Q3 paired comparison
+        mse_ratio relative_reduction theoretical_ratio theoretical_reduction
+1 0.0992246189127     0.900775381087               0.1                   0.9
+  empirical_mse_gain theoretical_mse_gain gain_mcse_paired
+1     0.226027296046                0.225 0.00351209386552
+
+VALIDATION PASSED: identities, counts, intervals and Monte Carlo checks.

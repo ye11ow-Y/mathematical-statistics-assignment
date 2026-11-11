@@ -1,0 +1,5 @@
+Historical transcription matches the original PDF: 37 values, six fragments and five omissions, preserving repeated and negative values.
+All 146 predictive medians satisfy the independently recomputed cohort-mixture order-statistic equations; extreme and middle roots also independently solved.
+CSV, numeric-only submission sequence and complete manuscript table agree exactly; order, signs, counts and rounding passed.
+Hypothetical W1 expectations independently integrated over all order-statistic CDFs; R simulations agree within Monte Carlo uncertainty in every scenario.
+PASSED. This verifies model calculations and delivery integrity, not real forecast accuracy.

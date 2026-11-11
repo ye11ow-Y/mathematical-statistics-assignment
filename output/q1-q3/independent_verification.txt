@@ -1,0 +1,1 @@
+Independent Python/SciPy check PASSED: initial estimates and t/chi-square CI endpoints; all reported simulation MSE, variance and MCSE; paired MSE ratio; 4000 standardised observations; 501 sample-size grid points.

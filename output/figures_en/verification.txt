@@ -1,0 +1,11 @@
+Figure 1: 501 nested-sample points; normal and chi-square reference limits verified.
+fig01_consistency: English text verified, plotted data and geometry preserved, all labels within canvas.
+Figure 2: true-sigma Z statistic verified for all 4,000 records; shared bins contain all samples.
+fig02_standardized_distribution: English text verified, plotted data and geometry preserved, all labels within canvas.
+Figure 3: all posterior means, 90% beta quantiles and n=20 posterior densities independently verified.
+fig03_bayesian_update: English text verified, plotted data and geometry preserved, all labels within canvas.
+Figure 4: direct normal tails and all 10 Clopper-Pearson intervals verified; beta_1024 remains positive.
+Figure 4: intervals missing their theoretical probability: n=1024/size.
+fig04_test_power: English text verified, plotted data and geometry preserved, all labels within canvas.
+Figure 5: 146 descending, unrounded predictions; all median CDF residuals within tolerance.
+fig05_submission_prediction: English text verified, plotted data and geometry preserved, all labels within canvas.
